@@ -5,9 +5,9 @@ Installation notes, updates, scripts, etc
 
 `$ sudo vim /etc/apt/sources.list`
 
-`$ deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic-10 main`
+`deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic-10 main`
 
-`$ deb-src http://apt.llvm.org/bionic/ llvm-toolchain-bionic-10 main`
+`deb-src http://apt.llvm.org/bionic/ llvm-toolchain-bionic-10 main`
 
 `$ wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key |sudo apt-key add - `
 
