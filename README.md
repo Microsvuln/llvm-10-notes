@@ -1,18 +1,18 @@
 # llvm-10-notes
 Installation notes, updates, scripts, etc
 
-- Install LLVM 10
+# Install LLVM 10
 
-`$ sudo vim /etc/apt/sources.list`
+`sudo vim /etc/apt/sources.list`
 
 `deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic-10 main`
 
 `deb-src http://apt.llvm.org/bionic/ llvm-toolchain-bionic-10 main`
 
-`$ wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key |sudo apt-key add - `
+`wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key |sudo apt-key add - `
 
 
-` $ sudo apt-get update `
+`sudo apt-get update `
 
 
 # LLVM
@@ -42,14 +42,14 @@ Installation notes, updates, scripts, etc
 
 # Update and replace new version in the bin
 
-` $sudo ln -s /usr/bin/clang-10 /usr/bin/clang `
+`sudo ln -s /usr/bin/clang-10 /usr/bin/clang `
 
-` $sudo ln -s /usr/bin/clang++-10 /usr/bin/clang++ `
+`sudo ln -s /usr/bin/clang++-10 /usr/bin/clang++ `
 
-` $sudo ln -s /usr/bin/llvm-ar-10 /usr/bin/llvm-ar `
+`sudo ln -s /usr/bin/llvm-ar-10 /usr/bin/llvm-ar `
 
-` $sudo ln -s /usr/bin/llvm-as-10 /usr/bin/llvm-as `
+`sudo ln -s /usr/bin/llvm-as-10 /usr/bin/llvm-as `
 
-` $sudo ln -s /usr/bin/clangd-10 /usr/bin/clangd `
+`sudo ln -s /usr/bin/clangd-10 /usr/bin/clangd `
 
-` $sudo ln -s /usr/bin/clang-tidy-10 /usr/bin/clang-tidy `
+`sudo ln -s /usr/bin/clang-tidy-10 /usr/bin/clang-tidy `
