@@ -40,7 +40,7 @@ Installation notes, updates, scripts, etc
 ` sudo apt-get install clang-tidy-10 `
 
 
-- Update and replace new version in the bin
+# Update and replace new version in the bin
 
 ` $sudo ln -s /usr/bin/clang-10 /usr/bin/clang `
 
