@@ -38,3 +38,18 @@ Installation notes, updates, scripts, etc
 
 # clang-tidy
 ` sudo apt-get install clang-tidy-10 `
+
+
+- Update and replace new version in the bin
+
+` $sudo ln -s /usr/bin/clang-10 /usr/bin/clang `
+
+` $sudo ln -s /usr/bin/clang++-10 /usr/bin/clang++ `
+
+` $sudo ln -s /usr/bin/llvm-ar-10 /usr/bin/llvm-ar `
+
+` $sudo ln -s /usr/bin/llvm-as-10 /usr/bin/llvm-as `
+
+` $sudo ln -s /usr/bin/clangd-10 /usr/bin/clangd `
+
+` $sudo ln -s /usr/bin/clang-tidy-10 /usr/bin/clang-tidy `
