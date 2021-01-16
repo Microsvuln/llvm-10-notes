@@ -55,3 +55,9 @@ Installation notes, updates, scripts, etc
 `sudo ln -s /usr/bin/clang-tidy-10 /usr/bin/clang-tidy `
 
 `sudo ln -s /usr/bin/llvm-config-10 /usr/bin/llvm-config `
+
+# Add alternatives
+
+` sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-10 1000 `
+
+` sudo update-alternatives --install /usr/bin/clang clang /usr/bin/clang-10 1000 `
