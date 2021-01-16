@@ -53,3 +53,5 @@ Installation notes, updates, scripts, etc
 `sudo ln -s /usr/bin/clangd-10 /usr/bin/clangd `
 
 `sudo ln -s /usr/bin/clang-tidy-10 /usr/bin/clang-tidy `
+
+`sudo ln -s /usr/bin/llvm-config-10 /usr/bin/llvm-config `
