@@ -1,4 +1,4 @@
-# llvm-10-notes
+# llvm-10-notes, installation, etc
 Installation notes, updates, scripts, etc
 
 # Install LLVM 10
