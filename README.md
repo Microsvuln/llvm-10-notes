@@ -61,3 +61,20 @@ Installation notes, updates, scripts, etc
 ` sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-10 1000 `
 
 ` sudo update-alternatives --install /usr/bin/clang clang /usr/bin/clang-10 1000 `
+
+
+# LLVM-11
+
+`sudo ln -s /usr/bin/clang-11 /usr/bin/clang`
+
+`sudo ln -s /usr/bin/clang++-11 /usr/bin/clang++`
+
+`sudo ln -s /usr/bin/llvm-ar-11 /usr/bin/llvm-ar`
+
+`sudo ln -s /usr/bin/llvm-as-11 /usr/bin/llvm-as`
+
+`sudo ln -s /usr/bin/clangd-11 /usr/bin/clangd`
+
+`sudo ln -s /usr/bin/clang-tidy-11 /usr/bin/clang-tidy`
+
+`sudo ln -s /usr/bin/llvm-config-11 /usr/bin/llvm-config`
